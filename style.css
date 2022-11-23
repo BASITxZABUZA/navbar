@@ -12,12 +12,13 @@
     justify-content: space-evenly;
     text-transform: uppercase;
     /* background-blend-mode: luminosity; */
-    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
-    font-size: 2rem;
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
+    background-color: aqua;
+    font-size: 1rem;
 
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -28,13 +29,18 @@ a{
     letter-spacing: 10px;
 }
 .list a:hover{
-    color: green;
+    color: rgb(128, 0, 122);
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 10px;
-
-
+    letter-spacing: 8px;
 }
-img{
-    opacity: 0.5;
+.homepage h1{
+    display: flexbox;
+    justify-content: center;
+    background-color: hotpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hello{
+    display: inline-block;
+    justify-content: center;
 }
